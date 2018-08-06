@@ -1,0 +1,10 @@
+/* Styles go here */
+
+#map{
+  width: 100vw;
+  height: 100vh;
+}
+
+.butt {
+  padding: 7px 15px;
+}

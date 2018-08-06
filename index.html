@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link data-require="leaflet@*" data-semver="1.3.1" rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+    <script data-require="leaflet@*" data-semver="1.3.1" src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="latLngData.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <button id="but" class="butt">OpenStreet</button>
+    <button id="but1" class="butt">Google</button>
+    <div id="map"></div>
+  </body>
+
+</html>
+
+<!--
+1. Добавить возможность выбора между OpenStreet и Google картами
+2. Выделить на карте бермудский треугольник (любым способом)
+3. При нажатии на линию, показывать popup с общей длинной текущей линии
+Работа с DOM только через Leaflet
+-->
